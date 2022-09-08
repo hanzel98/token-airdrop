@@ -1,4 +1,4 @@
-# Advanced Sample Hardhat Project
+# Token Airdrop (Using Merkle Distributor)
 
 This airdrop is cheaper than a whitelisted version of an airdrop, but the drawback is that the deployer needs to know all the addresses that will be able to withdraw. It is not possible to change the original list because the merkle root would change too. On the other hand a whitelisted version could be modified at any moment by an admin allowing more flexibility but paying a higher price.
 
