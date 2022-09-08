@@ -1,0 +1,6 @@
+{
+  "editor.maxTokenizationLineLength": 2000000,
+  "solidity.compileUsingRemoteVersion": "v0.8.10+commit.fc410830",
+  "slither.solcPath": "",
+  "slither.hiddenDetectors": []
+}
