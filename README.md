@@ -17,3 +17,9 @@ In this project, copy the .env.example file to a file named .env, and then edit 
 ```shell
 npm run verify-rinkeby
 ```
+
+This a visual representation of how the merkle tree works, we need to have all the addresses and generate the merkle root.
+Then we store the merkle root in the smart contract, this will be used as a comparison point when the users claim their tokens.
+Leaves = represented at the bottom, the leaves are hashes of any information it can be the hash of an address or the hash of an address + an specific amount.
+Once generated, the merkle tree doesn't completely require all the leaves it just requires what is called a merkle proof, which are the realy required hashes to get to the top, in this image they are represented in red. This merklee proof list can be generated with the same script or function used when creating the merklee tree. 
+![image](https://user-images.githubusercontent.com/33629234/189267507-ab9a6711-45d6-4a74-aee3-98d622223f3f.png)
