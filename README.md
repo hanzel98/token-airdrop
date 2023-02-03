@@ -7,6 +7,7 @@ npm install
 npx hardhat compile
 npm run test
 ```
+Video explanation here [Youtube Link](https://youtu.be/enjfkv5x3ms)
 
 # Etherscan verification
 
@@ -23,3 +24,4 @@ Then we store the merkle root in the smart contract, this will be used as a comp
 Leaves = represented at the bottom, the leaves are hashes of any information it can be the hash of an address or the hash of an address + an specific amount.
 Once generated, the merkle tree doesn't completely require all the leaves it just requires what is called a merkle proof, which are the realy required hashes to get to the top, in this image they are represented in red. This merklee proof list can be generated with the same script or function used when creating the merklee tree. 
 ![image](https://user-images.githubusercontent.com/33629234/189267507-ab9a6711-45d6-4a74-aee3-98d622223f3f.png)
+
